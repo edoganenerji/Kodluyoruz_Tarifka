@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity, Linking } from "react-native";
 import styles from "./FoodDetailCard.style";
 const FoodDetailCard = ({meals}) => {
-    console.log(meals.strMeal)
     return(
         <View>
             <Image style={styles.image} source={{uri:meals.strMealThumb}}/>
